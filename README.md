@@ -177,7 +177,7 @@ Min:
  
 </details>
 
-Solution with desired result format:
+Solution with desired format for the return function:
 ```
 {
  'mean': [[3.0, 4.0, 5.0], [1.0, 4.0, 7.0], 4.0],
