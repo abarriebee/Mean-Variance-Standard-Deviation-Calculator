@@ -44,7 +44,7 @@ For development, you can use [main.py](main.py) to test your <kbd>calculate()</k
 
 ## Solution Breakdown <a name="sol"></a>
 
-Here we define the <kbd>calculate()</kbd> funtion and are raising the <kbd>ValueError</kbd>:
+Here we define the <kbd>calculate()</kbd> funtion, setting the numpy arrary, and are raising the <kbd>ValueError</kbd>:
 ```
 def calculate(list):
     if(len(list) != 9):
