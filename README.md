@@ -56,7 +56,7 @@ def calculate(list):
     ls = np.array(list)
     print(ls)
 ```
-Setting up the 3x3 matrix for the mean, varience, standard, max, min, sum:
+Setting up the 3x3 matrix for the mean, varience, standard deviation, max, min, sum:
 ```
     mean_row = [ls[[0, 1, 2]].mean(), ls[[3, 4, 5]].mean(), ls[[6, 7, 8]].mean()]
     mean_column = [ls[[0, 3, 6]].mean(), ls[[1, 4, 7]].mean(), ls[[2, 5, 8]].mean()]
