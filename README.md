@@ -91,7 +91,7 @@ Setting up return statement for the <kbd>calculate()</kbd> function:
 ## Solution <a name="sol"></a>
 
 
-Desired format for the return function:
+Return function with desired formatting:
 
 ```
 {
