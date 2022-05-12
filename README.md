@@ -46,7 +46,8 @@ For development, you can use [main.py](main.py) to test your <kbd>calculate()</k
 
 ## Solution Breakdown <a name="break"></a>
 
-Here we define the <kbd>calculate()</kbd> funtion, setting the numpy arrary, and are raising the <kbd>ValueError</kbd>:
+Here we define the <kbd>calculate()</kbd> funtion, raising the <kbd>ValueError</kbd>, and setting the numpy arrary:
+
 ```
 def calculate(list):
     if(len(list) != 9):
@@ -75,7 +76,7 @@ Setting up the 3x3 matrix for the mean, varience, standard, max, min, sum:
     sum_row = [ls[[0, 1, 2]].sum(), ls[[3, 4, 5]].sum(), ls[[6, 7, 8]].sum()]
     sum_column = [ls[[0, 3, 6]].sum(), ls[[1, 4, 7]].sum(), ls[[2, 5, 8]].sum()]
 ```
-Setting up return statement for the <kbd>calculate()</kbd> function.
+Setting up return statement for the <kbd>calculate()</kbd> function:
 ```
     return {
       'mean': [mean_column, mean_row, ls.mean()],
@@ -86,7 +87,9 @@ Setting up return statement for the <kbd>calculate()</kbd> function.
       'sum': [sum_column, sum_row, ls.sum()]
     }
 ```
+
 ## Solution <a name="sol"></a>
+
 ```
 [0 1 2 3 4 5 6 7 8]
 {'mean': [[3.0, 4.0, 5.0], [1.0, 4.0, 7.0], 4.0], 
