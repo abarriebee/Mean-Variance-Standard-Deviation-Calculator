@@ -1,6 +1,6 @@
 # Mean Variance Standard Deviation Calculator
 
-The pupose of the project is to create a function named <kbd>calculate()</kbd> in [mean_var_std.py](mean-var-std.py) that uses Numpy to output the **mean**, **variance**, **standard deviation**, **max**, **min**, and **sum of the rows**, **columns**, and **elements in a 3 x 3 matrix***.
+The pupose of the project is to create a function named <kbd>calculate()</kbd> in [mean_var_std.py](mean-var-std.py) that uses Numpy to output the **mean**, **variance**, **standard deviation**, **max**, **min**, and **sum of the rows**, **columns**, and **elements in a 3 x 3 matrix**.
 
 ## Table of content
 
